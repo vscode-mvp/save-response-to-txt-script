@@ -1,0 +1,24 @@
+{
+  "name": "save-response-in-txt-script",
+  "version": "2.0.0",
+  "description": "Скрипт позволяющий совершать запросы GET и сохранить ответы в файл jsonResponses.txt (создается автоматически), при совершении нескольких запросов поочередно, они будут сохранятся каждый раз на новой строке.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vscode-mvp/save-response-in-txt-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vscode-mvp/save-response-in-txt-script/issues"
+  },
+  "homepage": "https://github.com/vscode-mvp/save-response-in-txt-script#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2"
+  }
+}
